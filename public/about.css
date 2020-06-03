@@ -1,0 +1,80 @@
+.upper{
+  background-color: pink;
+   margin-top : 5px;
+  text-align: center;
+   height: 150px;
+    width: 100%;
+}
+.breadcrumb{
+  padding-left: 2.5% !important;
+}
+
+.about{
+  background-color: white;
+  width: 80%;
+  margin: 0 auto ;
+  text-align: justify;
+
+}
+
+.head{
+  background-color: white !important;
+}
+.contactheading{
+  text-decoration: underline;
+  text-decoration-color: #e91e63;
+}
+.about>h2{
+    padding-bottom: 2%;
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: #e91e63;
+}
+.about>h5{
+    padding-bottom: 1%;
+    padding-top:2%;
+    color: #e91e63;
+}
+
+.about>p{
+    color: #666666;
+    font-size: 15px;
+}
+.addresspara{
+  width: 70%;
+  line-height: 1.5rem;
+  color: black !important;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.replyheading{
+  color: #666666;
+  letter-spacing: 1px;
+  opacity: 0.6;
+}
+
+#formid{
+  width: 70%;
+  margin: 0px auto 0px auto;
+}
+.form-group  span{
+  color: #e91e63;
+   font-weight: bold;
+
+}
+.form-group input:focus{
+  box-shadow: none; -webkit-box-shadow: none;
+  border-color: #e91e63;
+ 
+}
+.form-group textarea:focus{
+  box-shadow: none; -webkit-box-shadow: none;
+  border-color: #e91e63;
+}
+.submitbutton{
+  border-radius: 20px !important;
+  background-color: #e91e63 !important;
+  border-color: inherit !important;
+ 
+
+}

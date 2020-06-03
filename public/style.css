@@ -1,0 +1,497 @@
+
+
+.mainlogo{
+    width: 12%;
+   
+  
+  }
+  /* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+    
+  } */
+  #myBtn {
+  
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+
+   
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+   
+   
+  }
+.brandsLink{
+  color: black;
+}
+
+.brandsLink:hover{
+  color:#bdbdbd;
+}
+  
+  #myBtn:hover {
+    opacity: 0.7;
+  }
+  
+  .rw{
+  
+    font-size:  1.1em;
+  }
+  #signinpara{
+    font-weight: bold;
+  }
+  
+  .nav-item>li{
+    display: inline-block;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+    
+  }
+  /* .navbar-toggle{
+    border-color:rgb(218, 25, 25);margin-left:-20px;
+  } */
+  .login-cart{
+    display: inline-block;
+    font-size: 30px;
+ 
+    
+  }
+  .nav-item:hover{
+       color:#bdbdbd;
+  }
+  .nav-item a{
+      color: black;
+  }
+  .nav-item a:hover{
+      color: #bdbdbd;
+      text-decoration: none;
+  }
+  .navtogglebutton:hover{
+    color:#bdbdbd;
+  }
+  .nav-item{
+    padding-top: 0.5%;
+   
+  
+  }
+  
+  .nav-item>p{
+    font-size: 15px;
+  }
+  .login-cart:hover{
+    color:#bdbdbd;
+  }
+  
+  .navbar .navbar-nav {
+  
+  height: 5vh;
+    margin: 0px auto 0px auto;
+  }
+  
+
+  @media(max-width:480px){
+   
+  
+    .mainlogo{
+      width: 30%;
+    }
+  
+    .navbar-nav>li{
+      border-bottom: 1px solid #bdbdbd;
+      padding: 1%;
+      background-color: white;
+    }
+    .navtogglebutton{
+      margin-top: -60px;
+      border: 1px solid  white;
+      margin-left: -20px;
+    }
+    .login-cart{
+      font-size: 15px;
+   
+  
+    }
+    #newarrivals{
+      font-size: 0.7em;
+    }
+    .nav-item{
+      font-size: 0.7em;
+    }
+    .navbar .navbar-nav {
+   
+      height: auto;
+        margin: 0px auto 0px auto;
+      }
+  
+  }
+
+                  /* Carousel */
+                  .h3-responsive{
+                    color: white;
+                    font-size: 20px;
+                    
+                }
+               
+                .d-block{
+                    height: auto;
+                }
+                /* #myBtn {
+                    display: none;
+                    position: fixed;
+                    bottom: 20px;
+                    right: 30px;
+                    z-index: 99;
+                    font-size: 18px;
+                    border: none;
+                    outline: none;
+                    background-color: red;
+                    color: white;
+                    cursor: pointer;
+                    padding: 15px;
+                    border-radius: 4px;
+                  }
+                  
+                  #myBtn:hover {
+                    background-color: #555;
+                  } */
+                
+                @media(max-width:700px){
+                  .mainlogo{
+                    width: 20%;
+                  }
+                  .h3-responsive{
+                      margin: -2px auto -2px auto;
+                      font-size: 15px;
+                      
+                  }
+                  .revitalizepara{
+                      font-size: 12px;
+                      margin-top: unset;
+                  }
+                  .d-block{
+                      height: 29vh;;
+                  }
+                
+                  
+                  .carousel-caption{
+                      margin: -10px auto -10px auto;
+                  }
+                
+                }
+                
+                @media all and (max-width: 1000px) and (orientation: landscape){
+                
+                    .d-block{
+                        height: 70vh;
+                    }
+                }
+                
+  @media all and (max-width: 1000px) and (orientation: landscape){
+    .navbar .navbar-nav {
+  
+      height: auto;
+    }
+  
+    .navbar-nav>li{
+      border-bottom: 1px solid #bdbdbd;
+      padding: 1%;
+      background-color: white;
+    }
+    .navtogglebutton{
+      margin-top: -60px;
+      border: 1px solid  white;
+      margin-left: -20px;
+    }
+  }
+
+
+                                   /* Div */
+             .toptrendingheading,.choosebestpara{
+                text-align: center;
+              
+            }
+            .toptrendingheading{
+                padding-top: 4%;
+            }
+            .choosebestpara{
+                padding: 1%;
+                font-size: 19px;
+            }
+            
+            .picstoptrending{
+                margin:0;
+                padding: 0;
+            }
+            
+            @media(max-width:480px){
+                .toptrendingheading{
+                    font-size: 19px;
+                    padding-top: 10%;
+                }
+            
+                .choosebestpara{
+                    font-size: 15px;
+                }
+                .card{
+                    padding: 2px;
+                    border-color: white;
+                }
+              
+            }
+         
+            @media all and (max-width: 1000px) and (orientation: landscape){
+            
+                .card{
+                    padding: 1%;
+                    width: 99%;
+                    border-color: white;
+                 
+                    margin: 0px auto 0px auto;
+            
+                    
+                }
+            }
+         
+                     /* Gallery */
+
+                     .gallerycard{
+                        background-color: white;
+                        padding: 1%;
+                    }
+                    
+                    .collectionheading{
+                        text-align: center;
+                        font-size: 17px;
+                        margin-top: 1%;
+                        color: #666666;
+                    }
+                    .card-img{
+                        height: 45vh;
+                    
+                    }
+                    .galleryHeading{
+                    text-align: center;
+                    padding: 2%;
+                    }
+                    .galleryLine{
+                        border-color:  #666666;
+                    }
+                     /* note css */
+                    .notediv{
+                        background-color: #eeeeee;
+                    }
+                    .noteheading{
+                        text-align:center;font-weight:bold;padding:50px;letter-spacing:4px;color:#666666;font-size:16px;
+                    }
+                    .noteline{
+                    width:70%;margin-top: -2%;color: #666666;
+                    }
+                    
+                    .notepara{
+                        text-align: center;
+                        font-size: 15px;
+                        padding: 2%;
+                        width: 70%;
+                        margin-left: 15%;
+                        color: #666666;
+                    
+                    }
+                    
+               
+                 
+                    /* footer div */
+                    
+                    .footer{
+                    
+                        margin-top: 0.5%;
+                        
+                    }
+                    .footercolumn>ul>li{
+                        display: block;
+                    }
+                    .footerlis a{
+                        color: black;
+                    }
+                    .footerlis :hover{
+                        color: #bdbdbd;
+                        text-decoration: none;
+                    }
+                    .li1{
+                      font-weight: bolder;
+                      font-size: 18px;
+                      padding-bottom: 10%;
+                      padding-left: 3%;
+                      display: block;
+                      text-align: justify;
+                      letter-spacing: 1px;
+                    
+                    }
+                    .footercolumn ,.socialmediacol{
+                        padding: 2%;
+                        
+                    
+                    }
+                    
+                    .socialmedia{
+                        display: inline-block;
+                        font-size: 25px;
+                        padding:3% ;
+                     
+                        
+                    }
+                    .footerlis{
+                        padding:3% ;
+                        font-size: 16px;
+                    
+                    }
+                    .fa-facebook-official{
+                        color: #0d47a1;
+                    }
+                    .fa-twitter{
+                      color: #2196f3;
+                    }
+                    .fa-youtube-play{
+                    color: red;
+                    }
+                    .lastdiv{
+                        background-color: black;
+                    
+                    }
+                    .lastfooter{
+                        color:white;word-spacing:5px;font-weight:normal;font-size:15px ;text-align: center;
+                        padding: 1%;
+                    }
+                    @media(max-width:480px) {
+                        .galleryHeading{
+                          
+                            font-size: 19px;
+                            padding: 5%;
+                            }
+                        .gallerycard{
+                            border-bottom: 1px solid #bdbdbd;
+                            padding: 5%;
+                                  object-fit: cover;
+                    
+                        }
+                    
+                        /* note css */
+                        .notediv{
+                            height: auto;
+                         
+                        }
+                        
+                        .noteheading{
+                            font-size: 13px;
+                    
+                            padding: 0;
+                            padding-top: 8%;
+                            padding-left: 3%;
+                        }
+                        .noteline{
+                            margin-top:5%;
+                            width: 90%;
+                        }
+                        .notepara{
+                              font-size: 12px;
+                        }
+                    
+                        /* footer css */
+                    
+                    
+                        .li1{
+                    
+                    
+                           margin-left: -12%;
+                           padding: 2%;
+                    
+                        }
+                        .footerlis{
+                    
+                            margin-left: -12%;
+                            padding: 2%;
+                            font-size: 14px;
+                        }
+                        .socialmedia{
+                    
+                            margin-left: -12%;
+                            padding: 2%;
+                    
+                            width: 25%;
+                    
+                    
+                    
+                            font-size: 14px;
+                        }
+                        .lastfooter{
+                            font-size: 12px;
+                            padding: 3%;
+                        }
+                    
+                    }
+                    
+                    
+                    @media all and (max-width: 1000px) and (orientation: landscape){
+                        .gallerycard{
+                    
+                            border-bottom: 1px solid #bdbdbd;
+                    
+                            width: 80%;
+                    
+                           padding: 4%;
+                           height: 100vh;
+                            margin:0px auto 0px auto;
+                    
+                    
+                        }
+                 
+                    
+                        .li1{
+                    
+                    
+                           margin-left: -9%;
+                           padding: 2%;
+                           margin-top: -10px;
+                    
+                        }
+                        .footerlis{
+                    
+                    
+                            margin-left: -9%;
+                            padding: 1%;
+                            font-size: 15px;
+                            padding: 2%;
+                        }
+                        .socialmedia{
+                    
+                            margin-left: -9%;
+                    
+                    
+                            width: 18%;
+                    
+                            padding: 1.5%;
+                    
+                    
+                    
+                            font-size: 14px;
+                        }
+                    
+                        .lastfooter{
+                            font-size: 12px;
+                            padding: 2%;
+                        }
+                    
+                    
+                    }
+                    
